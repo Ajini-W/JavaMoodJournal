@@ -43,16 +43,23 @@ Set.of("sad", "angry", "depressed", "bad", "tired", "hate", "anxious");
 ## 🗄️ Database Setup
 
 Create the database and entries table before running the app:
+
 CREATE DATABASE moodjournal;
 
 USE moodjournal;
 
 CREATE TABLE entries (
+    
     id INT AUTO_INCREMENT PRIMARY KEY,
+    
     user_id INT,
+    
     date DATE,
+    
     entry_text TEXT,
+    
     mood VARCHAR(10)
+
 );
 
 ## ⚙️ Configuration
@@ -60,7 +67,9 @@ CREATE TABLE entries (
 Edit your database credentials in DBConnection.java:
 
 private static final String URL = "jdbc:mysql://localhost:3306/moodjournal";
+
 private static final String USER = "root";  // Your DB username
+
 private static final String PASSWORD = "MySQL@123";  // Your DB password
 
 Ensure your MySQL server is running and accessible.
@@ -68,6 +77,7 @@ Ensure your MySQL server is running and accessible.
 ## 🚀 How to Run the Project
 
 Clone this repository:
+
 git clone https://github.com/your-username/MoodJournal.git
 
 Open the project in Eclipse IDE (or any Java IDE).
@@ -79,17 +89,29 @@ Run the Main.java file to launch the application.
 The app uses a default user_id of 1 for journal entries. You can modify it in Main.java.
 
 ## 📁 Project Structure
+
 MoodJournal/
+
 ├── db/
+
 │   └── DBConnection.java          # Handles MySQL DB connection
+
 │
+
 ├── util/
+
 │   └── SentimentAnalyzer.java    # Basic sentiment analysis logic
+
 │
+
 ├── ui/
+
 │   ├── DashboardFrame.java       # Main journal UI window
+
 │   └── Main.java                 # Entry point
+
 │
+
 └── README.md
 
 ## 🔮 Future Improvements
