@@ -28,7 +28,6 @@
 
 Sentiment is detected by matching journal entry words against a list of predefined keywords:
 
-```java
 // Positive words
 Set.of("happy", "joy", "excited", "love", "great", "fun", "good");
 
