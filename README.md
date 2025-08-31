@@ -35,15 +35,15 @@ Set.of("happy", "joy", "excited", "love", "great", "fun", "good");
 // Negative words
 Set.of("sad", "angry", "depressed", "bad", "tired", "hate", "anxious");
 
-Positive score > 0 → Positive mood
+⬩Positive score > 0 → Positive mood
 
-Negative score < 0 → Negative mood
+⬩Negative score < 0 → Negative mood
 
-Score = 0 → Neutral mood
+⬩Score = 0 → Neutral mood
+
 🗄️ Database Setup
 
 Create the database and entries table before running the app:
-
 CREATE DATABASE moodjournal;
 
 USE moodjournal;
@@ -64,15 +64,12 @@ private static final String URL = "jdbc:mysql://localhost:3306/moodjournal";
 private static final String USER = "root";  // Your DB username
 private static final String PASSWORD = "MySQL@123";  // Your DB password
 
-
 Ensure your MySQL server is running and accessible.
 
 🚀 How to Run the Project
 
 Clone this repository:
-
 git clone https://github.com/your-username/MoodJournal.git
-
 
 Open the project in Eclipse IDE (or any Java IDE).
 
@@ -96,21 +93,17 @@ MoodJournal/
 │
 └── README.md
 
-📷 Screenshots (Optional)
-
-Add screenshots of your GUI here.
-
 🔮 Future Improvements
 
-Add user login & authentication
+⬩Add user login & authentication
 
-Use advanced NLP libraries (like Stanford NLP or OpenNLP)
+⬩Use advanced NLP libraries (like Stanford NLP or OpenNLP)
 
-View mood history charts
+⬩View mood history charts
 
-Export entries to PDF
+⬩Export entries to PDF
 
-Dark mode UI
+⬩Dark mode UI
 
 📜 License
 
