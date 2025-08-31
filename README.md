@@ -78,7 +78,7 @@ Ensure your MySQL server is running and accessible.
 
 Clone this repository:
 
-git clone https://github.com/your-username/MoodJournal.git
+git clone https://github.com/Ajini-W/JavaMoodJournal.git
 
 Open the project in Eclipse IDE (or any Java IDE).
 
