@@ -40,7 +40,7 @@ Set.of("sad", "angry", "depressed", "bad", "tired", "hate", "anxious");
 
 ⬩Score = 0 → Neutral mood
 
-🗄️ Database Setup
+## 🗄️ Database Setup
 
 Create the database and entries table before running the app:
 CREATE DATABASE moodjournal;
@@ -55,7 +55,7 @@ CREATE TABLE entries (
     mood VARCHAR(10)
 );
 
-⚙️ Configuration
+## ⚙️ Configuration
 
 Edit your database credentials in DBConnection.java:
 
@@ -65,7 +65,7 @@ private static final String PASSWORD = "MySQL@123";  // Your DB password
 
 Ensure your MySQL server is running and accessible.
 
-🚀 How to Run the Project
+## 🚀 How to Run the Project
 
 Clone this repository:
 git clone https://github.com/your-username/MoodJournal.git
@@ -78,7 +78,7 @@ Run the Main.java file to launch the application.
 
 The app uses a default user_id of 1 for journal entries. You can modify it in Main.java.
 
-📁 Project Structure
+## 📁 Project Structure
 MoodJournal/
 ├── db/
 │   └── DBConnection.java          # Handles MySQL DB connection
@@ -92,7 +92,7 @@ MoodJournal/
 │
 └── README.md
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 ⬩Add user login & authentication
 
@@ -104,14 +104,14 @@ MoodJournal/
 
 ⬩Dark mode UI
 
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
 
-🤝 Contributing
+## 🤝 Contributing
 
 Pull requests are welcome! Open issues to suggest new features or improvements.
 
-💬 Contact
+## 💬 Contact
 
 Have feedback, questions, or want to collaborate? Reach out through GitHub Issues or Discussions.
